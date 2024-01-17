@@ -9,8 +9,8 @@
 <body>
     <header>
         <div class="container">
-            <div class="nav">
-                <nav>
+            <div class="navbar">
+                <div class="nav">
                     <h3 class="nav-title">JourneyLink <span class="nav-text-color">Travel</span></h3>
     
                     <ul>
@@ -20,7 +20,7 @@
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </nav>
+                </div>
                
                 </div>
         </div>
@@ -29,10 +29,9 @@
     <main>
 
         <!-- banner section -->
-        
+        <section class="banner-section">
+            <div class="container">
             <div class="banner">
-                <div class="container">
-
                 <div class="banner-content">
                     <h1 class="banner-title">
                         Explore Your Travel
@@ -53,6 +52,9 @@
                 </div>
                 
                </div>
+
+        </section>
+            
 
     
         <!-- Our Popular section -->
@@ -88,29 +90,35 @@
         <!-- Choose Your Destination -->
         <section class="destination-section">
             <div class="container">
-                <h3 class="destination-title">
-                    Choose Your Destination
-                </h3>
-                <p class="destination-description">
-                    Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
-                </p>
-
-                <div class="destination-container-img">
-                    <div class="destination-first-img">
-                        <img src="./images/Rectangle 5.png" alt="">
-                        <img src="./images/Rectangle 8.png" alt="">
-                    </div>
-                    <div class="destination-second-img">
-                        <img src="./images/Rectangle 6.png" alt="">
-                        <img src="./images/Rectangle 7.png" alt="">
-                        <img src="./images/Rectangle 9.png" alt="">
+                <div class="destination-container">
+                    <div class="destination-content">
+                        <h3 class="destination-title">
+                            Choose Your Destination
+                        </h3>
+                        <p class="destination-description">
+                            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+                        </p>
                     </div>
                     
-                    <div class="destination-third-img">
-                        <img src="./images/Rectangle 11.png" alt="">
-                        <img src="./images/Rectangle 10.png" alt="">
+    
+                    <div class="destination-container-img">
+                        <div class="destination-first-img">
+                            <img src="./images/Rectangle 5.png" alt="">
+                            <img src="./images/Rectangle 8.png" alt="">
+                        </div>
+                        <div class="destination-second-img">
+                            <img src="./images/Rectangle 6.png" alt="">
+                            <img src="./images/Rectangle 7.png" alt="">
+                            <img src="./images/Rectangle 9.png" alt="">
+                        </div>
+                        
+                        <div class="destination-third-img">
+                            <img src="./images/Rectangle 11.png" alt="">
+                            <img src="./images/Rectangle 10.png" alt="">
+                        </div>
                     </div>
                 </div>
+                
                 
             </div>
 
@@ -157,13 +165,16 @@
         <section class="deal-discounts-section">
             <div class="container">
                 <div class="discounts-deal">
-                    <h3 class="discounts-title">
-                        Deals & Discounts
-                    </h3>
-                    <p class="discounts-descriptions">
-                        Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
-                    </p>
-
+                    <div class="discount-content">
+                        <h3 class="discounts-title">
+                            Deals & Discounts
+                        </h3>
+                        <p class="discounts-descriptions">
+                            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+                        </p>
+    
+                    </div>
+                    
                     <div class="deal-container-1">
                        <div class="deal-container-content">
                             <ul class="list-items">
@@ -230,17 +241,91 @@
                         </div>
                          
                      </div>
-
-
+                     <div class="button-center">
+                        <button class="btn-primary">See All Packages</button>
+                     </div>
+                    
+                   
                 </div>
             </div>
+        </section>
+
+        <section class="perfect-place-section">
+        <!-- A Simple Perfect Place  -->
+        <div class="container">
+
+        </div>
+
+
 
         </section>
 
+        <section class="Newsletter-section">
+          <!-- Newsletter section -->
+          <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-input">
+                    <h3 class="newsletter-title">
+                        Newsletter
+                    </h3>
+                    <p class="newsletter-description">
+                        Get your daily dose of travel news & tips. Sign up today!
+                    </p>
+                    <hr>
+                    <div class="input-form">
+                        <input type="name" name="name" id="" placeholder="Enter your name">
+                        <input type="email" name="email" id="" placeholder="Enter your email">
+                        <input type="submit" value="submit">
+                    </div>
+                </div>
+                
 
+                <div class="newsletter-img">
+                    <img src="./images/Rectangle 8 (1).png" alt="">
+                    <div class="save-up">
+                        <span class="save-up-content">
+                            <p class="travel-dot-com">Travel.com</p>
+                           <p class="Percent-save">Save up to 70%</p>
+                            
+                        </span>
+                    </div>
+                    
+                    
+                </div>
+                
+                
 
+            </div>
+
+          </div>
+        </section>
+       
+    
     </main>
     <footer>
+        <!-- footer section -->
+        <div class="footer-logo">
+            <div class="footer-content">
+               <div class="footer-img">
+                <img src="./images/Group 40071.png" alt="">
+                <h3 class="logo">JourneyLink Travel</h3>
+                <p class="footer-description">
+                    Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. 
+                </p>
+               </div>
+               <ul class="social-link">
+                <li><img src="./images/Social.jpg" alt=""></li>
+                
+            </ul>
+           <div class="hr-tag">
+            <hr>
+            <p class="footer-end-content"> 2017, All Rights Reserved.</p>
+           </div>
+            </div>
+            
+            
+        
+        </div>
 
     </footer>
     
